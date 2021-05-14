@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Warehouse</string>
+    <string name="action_addfball">Add</string>
+    <string name="action_ball">Players</string>
+    <string name="footballTitle">Welcome Admin</string>
+    <string name="addSubtitle">Please add correctly</string>
+    <string name="addButton">Add</string>
+    <string name="ballName">Name</string>
+    <string name="ballDescription">Description </string>
+    <string name="ballCountry">Country </string>
+
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Football App</string>
+    <string name="nav_header_subtitle">Football App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_edit">Edit Balls</string>
+    <string name="action_update">Update</string>
+    <string name="message_edit">Please Update your Details Above</string>
+
+
+    <string name="button_addBall">Add</string>
+    <string name="hint_ballName">Name</string>
+    <string name="hint_ballDescription">Description</string>
+    <string name="hint_ballCountry">Country</string>
+
+    <string name="menu_addfball">Add</string>
+    <string name="menu_ball">Ball</string>
+
+    <string name="messageLoading">Please wait while we Connect to the Server...</string>
+
+    <!-- START Firebase Resources-->
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Please Login Below</string>
+    <string name="menu_ball_all">All Balls</string>
+
+    <!--END Firebase Resources-->
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58848307954",
+    "firebase_url": "https://footballproject-29576-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "footballproject-29576",
+    "storage_bucket": "footballproject-29576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58848307954:android:4413d69af702587072fe6b",
+        "android_client_info": {
+          "package_name": "com.example.markassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58848307954-m3h9u3m055fi42ugg4q3m5kb591f0s83.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.markassignment",
+            "certificate_hash": "fc0d85686de977d9738c2b3c9ee68a015791be9c"
+          }
+        },
+        {
+          "client_id": "58848307954-2qbi1lk7rpl51gvdv7j5mmfct6b16bnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU03zkGwWkH-jkqzvWud6d8KIV17UlNWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58848307954-2qbi1lk7rpl51gvdv7j5mmfct6b16bnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

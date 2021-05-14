@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddFootballFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ballName"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            android:background="#ffffff"
+            android:hint="@string/hint_ballName"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="14sp"
+            app:boxStrokeColor="#fff" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ballDescription"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="#ffffff"
+            android:hint="@string/hint_ballDescription"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="14sp"
+            app:boxStrokeColor="#fff" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ballCountry"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_margin="8dp"
+            android:background="#ffffff"
+            android:hint="@string/hint_ballCountry"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="14sp"
+            app:boxStrokeColor="#fff" />
+
+
+
+        <Button
+            android:id="@+id/buttonBallAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#0027FF"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:stateListAnimator="@null"
+            android:text="@string/button_addBall"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
