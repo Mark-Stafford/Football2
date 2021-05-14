@@ -25,11 +25,11 @@
 
     <string name="button_addBall">Add</string>
     <string name="hint_ballName">Name</string>
-    <string name="hint_ballDescription">Description</string>
+    <string name="hint_ballPosition">Position</string>
     <string name="hint_ballCountry">Country</string>
 
     <string name="menu_addfball">Add</string>
-    <string name="menu_ball">Ball</string>
+    <string name="menu_ball">Player</string>
 
     <string name="messageLoading">Please wait while we Connect to the Server...</string>
 
@@ -55,7 +55,7 @@
     <string name="firebase_user_management">Firebase User Management</string>
     <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
     <string name="emailpassword_title_text">Please Login Below</string>
-    <string name="menu_ball_all">All Balls</string>
+    <string name="menu_ball_all">All Players</string>
 
     <!--END Firebase Resources-->
 </resources>
