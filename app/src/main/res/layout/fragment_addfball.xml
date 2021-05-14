@@ -28,12 +28,12 @@
             app:boxStrokeColor="#fff" />
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/ballDescription"
+            android:id="@+id/ballPosition"
             android:layout_width="match_parent"
             android:layout_height="74dp"
             android:layout_margin="8dp"
             android:background="#ffffff"
-            android:hint="@string/hint_ballDescription"
+            android:hint="@string/hint_ballPosition"
             android:inputType="text"
             android:maxLength="25"
             android:maxLines="1"

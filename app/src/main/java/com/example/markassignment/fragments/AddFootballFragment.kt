@@ -62,7 +62,7 @@ class AddFootballFragment : Fragment(), AnkoLogger {
             ball.ballname =
                 ballName.text.toString()
             ball.balldescription =
-                ballDescription.text.toString()
+                ballPosition.text.toString()
             ball.ballcountry =
                 ballCountry.text.toString()
 

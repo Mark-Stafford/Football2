@@ -47,7 +47,7 @@ class EditFragment : Fragment(), AnkoLogger {
         loader = createLoader(activity!!)
 
         root.editName.setText(editFootball!!.ballname)
-        root.editDescription.setText(editFootball!!.balldescription)
+        root.editPosition.setText(editFootball!!.balldescription)
         root.editCountry.setText(editFootball!!.ballcountry)
 
 
@@ -75,7 +75,7 @@ class EditFragment : Fragment(), AnkoLogger {
 
     fun updateFootballData() {
         editFootball!!.ballname = root.editName.text.toString()
-        editFootball!!.balldescription = root.editDescription.text.toString()
+        editFootball!!.balldescription = root.editPosition.text.toString()
         editFootball!!.ballcountry = root.editCountry.text.toString()
     }
 
