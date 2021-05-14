@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Warehouse</string>
+    <string name="app_name">FootballApp</string>
     <string name="action_addfball">Add</string>
     <string name="action_ball">Players</string>
     <string name="footballTitle">Welcome Admin</string>
